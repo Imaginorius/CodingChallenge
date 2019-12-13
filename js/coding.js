@@ -3,10 +3,10 @@
      var nom=document.getElementById("name").value;
      var mail=document.getElementById("mdp").value;
      var mdp=document.getElementById("mail").value;
-     dispcarac.innerHTML=nom;
+     oninput="countchar()"
      
      if(nom==1) {
-        dispcarac.innerHTML="remplir champs"
+       document.getElementById("affichage").innerHTML="remplir le champs"
      }
 
  };

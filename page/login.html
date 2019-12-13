@@ -17,8 +17,8 @@
      
                 <div id="formulaire">
                     <form action="">
-                        <input type="text" name="nom" id="name" placeholder="nom">
-                        <input type="text" name="mdp" id="mdp" placeholder="mot de passe">
+                        <input type="text" name="nom" id="name" placeholder="nom"  oninput="countchar()">
+                        <input type="text" name="mdp" id="mdp" placeholder="mot de passe"  oninput="countchar()">
                         <span id="affiche"></span>
                     </form>
                         <button onclick="sendlog()">Envoyer</button>
