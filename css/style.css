@@ -1,17 +1,70 @@
-*{ margin:0; padding:0;}
+html, body {
+    margin: 0;
+    padding: 0;
+}
 
+.main {
+    float: left;
+    width: 100%;
+}
 
-#main {
-    margin: auto;
+.col-12 { 
 	width: 100%;
-    background-color: aquamarine;
-    display: flex;
-    margin: auto;
-    height: 100vh;
+	height: 40px;
+}
 
-}ffff
+.col-4 { 
+    width: 31.333%;
+    float: left;
+    margin-left: 2%;
+    display: block;
+}
+}
 
+@media screen and (max-width: 769px) { 
+	.col-4 { 
+	width: 31.333%;
+	}
+}
 
+nav{
+    height: 10%;
+    width: 100%;
+    background-color: lightgray;
+}
 
-;
+.logo {
+    height: 50px;
+    width: 50px;
+    margin : left;
+    padding-top: 20px;
+    padding-left: 20px;
+
+}
+
+.links {
+    float: right;
+}
+
+.top-section {
+    text-align: center;
+}
+
+.vignette {
+    height: 250px;
+    width: 250px;
+}
+
+.colonne {
+    float: left;
+}
+
+.colonne2 {
+    float: left;
+}
+
+.footer {
+    float: left;
+}
+
     
